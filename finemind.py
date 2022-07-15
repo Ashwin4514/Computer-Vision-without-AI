@@ -4,12 +4,12 @@ from pytesseract import Output
 from PIL import Image 
 
 #Mentioning env variable to use tesseract engine for OCR.
-pytesseract.pytesseract.tesseract_cmd= r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd= r''
 
 #Reading the Image and resizing it 
-image= cv2.imread("C:/Users/ASHWIN/Desktop/fineMind/3642684.jpg")
-image_2= cv2.imread("C:/Users/ASHWIN/Desktop/fineMind/3648476-1.jpg")
-image_3= cv2.imread("C:/Users/ASHWIN/Desktop/fineMind/3657993.jpg")
+image= cv2.imread("fineMind/3642684.jpg")
+image_2= cv2.imread("fineMind/3648476-1.jpg")
+image_3= cv2.imread("fineMind/3657993.jpg")
 
 
 #preprocessing the image to detect text from that image.
